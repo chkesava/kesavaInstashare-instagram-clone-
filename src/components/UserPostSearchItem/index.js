@@ -38,7 +38,7 @@ const UserPostSearchItem = props => (
               className="profile_pic"
             />
             <Link to={`/users/${eachPost.userId}`}>
-              <p className="profileName">{eachPost.userName}</p>
+              <h1 className="profileName">{eachPost.userName}</h1>
             </Link>
           </div>
           <img src={eachPost.postImage} alt="post" className="postImage" />
